@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"greeting": "Hellow world!!!!!"}
+    return {"greeting": "Hellow world!"}
 
 
 @app.get("/predict")
